@@ -1,0 +1,74 @@
+{
+  "amphibians": {
+    "total":119846,
+    "native":79498,
+    "invasive":40348,
+    "num_species":11
+  },
+  "angiosperms": {
+    "total":1060781,
+    "native":689757,
+    "invasive":371024,
+    "num_species":42
+  },
+  "arachnids": {
+    "total":373255,
+    "native":3642,
+    "invasive":369613,
+    "num_species":4
+  },
+  "birds": {
+    "total":46052190,
+    "native":25209374,
+    "invasive":20842816,
+    "num_species":30
+  },
+  "crustaceans": {
+    "total":24943,
+    "native":7270,
+    "invasive":17673,
+    "num_species":6
+  },
+  "fishes": {
+    "total":634997,
+    "native":395141,
+    "invasive":239856,
+    "num_species":42
+  },
+  "insects": {
+    "total":94679,
+    "native":38402,
+    "invasive":56277,
+    "num_species":18
+  },
+  "mammals": {
+    "total":483247,
+    "native":381316,
+    "invasive":101931,
+    "num_species":47
+  },
+  "molluscs": {
+    "total":9270,
+    "native":972,
+    "invasive":8298,
+    "num_species":10
+  },
+  "pteridophytes": {
+    "total":2061,
+    "native":1190,
+    "invasive":871,
+    "num_species":3
+  },
+  "reptiles": {
+    "total":95498,
+    "native":41742,
+    "invasive":53756,
+    "num_species":31
+  },
+  "pooled": {
+    "total":48950767,
+    "native":26848304,
+    "invasive":22102463,
+    "num_species":244
+  }
+}

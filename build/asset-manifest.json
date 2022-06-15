@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/alien-species-page/static/js/main.978d6ae5.js",
+    "static/media/denner.jpg": "/alien-species-page/static/media/denner.71c4c9fd53784616fa93.jpg",
+    "static/media/reptiles.jpg": "/alien-species-page/static/media/reptiles.fbf41ece5e1406750515.jpg",
+    "static/media/mammals.jpg": "/alien-species-page/static/media/mammals.37dbc185b939e1071461.jpg",
+    "static/media/pteridophytes.jpg": "/alien-species-page/static/media/pteridophytes.675c3c23a6678ddc6d29.jpg",
+    "static/media/molluscs.jpg": "/alien-species-page/static/media/molluscs.5761ebfabc2bd382f5a7.jpg",
+    "static/media/fishes.jpg": "/alien-species-page/static/media/fishes.e77474ece06fc95af001.jpg",
+    "static/media/angiosperms.jpg": "/alien-species-page/static/media/angiosperms.44c8acf22fce67dda178.jpg",
+    "static/media/amphibians.jpg": "/alien-species-page/static/media/amphibians.1cdf17e30c046c810ea6.jpg",
+    "static/media/birds.jpg": "/alien-species-page/static/media/birds.8582bf5854e8cd26a525.jpg",
+    "static/media/uem.png": "/alien-species-page/static/media/uem.4d401ce93650222e9512.png",
+    "static/media/insects.jpg": "/alien-species-page/static/media/insects.498a8cd626e5018ad6a5.jpg",
+    "static/media/arachnids.jpg": "/alien-species-page/static/media/arachnids.735beb4b56269356181d.jpg",
+    "static/media/crustaceans.jpg": "/alien-species-page/static/media/crustaceans.062d85b8183e5c52bf68.jpg",
+    "index.html": "/alien-species-page/index.html",
+    "main.978d6ae5.js.map": "/alien-species-page/static/js/main.978d6ae5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.978d6ae5.js"
+  ]
+}

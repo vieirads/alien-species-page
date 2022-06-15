@@ -1,0 +1,38 @@
+[
+  {
+    "continent": "África",
+    "Total": 100,
+    "Nativo": 70,
+    "Invasivo": 30 
+  },
+  {
+    "continent": "Ámérica Central",
+    "Total": 200,
+    "Nativo": 150,
+    "Invasivo": 50
+  },
+  {
+    "continent": "América do Norte",
+    "Total": 150,
+    "Nativo": 50,
+    "Invasivo": 100
+  },
+  {
+    "continent": "América do Sul",
+    "Total": 50,
+    "Nativo": 10,
+    "Invasivo": 40
+  },
+  {
+    "continent": "Europa",
+    "Total": 500,
+    "Nativo": 300,
+    "Invasivo": 200
+  },
+  {
+    "continent": "Oceania",
+    "Total": 600,
+    "Nativo": 420,
+    "Invasivo": 180
+  }
+]

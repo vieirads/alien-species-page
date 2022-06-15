@@ -1,0 +1,159 @@
+{
+  "amphibians": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 79498,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 40348,
+    "color": "#e41a1d"
+  }
+],
+  "angiosperms": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 689757,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 371024,
+    "color": "#e41a1d"
+  }],
+  "arachnids": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 3642,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 369613,
+    "color": "#e41a1d"
+  }],
+  "birds": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 25209374,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 20842816,
+    "color": "#e41a1d"
+  }],
+  "crustaceans": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 7270,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 17673,
+    "color": "#e41a1d"
+  }],
+  "fishes": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 395141,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 239856,
+    "color": "#e41a1d"
+  }],
+  "insects": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 38402,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 56277,
+    "color": "#e41a1d"
+  }],
+  "mammals": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 381316,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 101931,
+    "color": "#e41a1d"
+  }],
+  "molluscs": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 972,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 8298,
+    "color": "#e41a1d"
+  }],
+  "pteridophytes": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 1190,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 871,
+    "color": "#e41a1d"
+  }],
+  "reptiles": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 41742,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 53756,
+    "color": "#e41a1d"
+  }],
+  "pooled": [
+  {
+    "id": "nativo",
+    "label": "nativo",
+    "value": 26848304,
+    "color": "#367fb8"
+  },
+  {
+    "id": "invasor",
+    "label": "invasor",
+    "value": 22102463,
+    "color": "#e41a1d"
+  }]
+}
