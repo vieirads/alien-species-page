@@ -69,7 +69,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/"
+          to="/alien-species-page"
           onClick={handleClose}
         >
           <Home />
@@ -78,7 +78,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/groups"
+          to="/alien-species-page/groups"
           onClick={handleClose}
         >
           <Workspaces sx={styles.icon} />
@@ -87,7 +87,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/data"
+          to="/alien-species-page/data"
           onClick={handleClose}
         >
           <DataObject sx={styles.icon} />
@@ -96,7 +96,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/model"
+          to="/alien-species-page/model"
           onClick={handleClose}
         >
           <Timeline sx={styles.icon} />
@@ -105,7 +105,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/paper"
+          to="/alien-species-page/paper"
           onClick={handleClose}
         >
           <Article sx={styles.icon} />
@@ -114,7 +114,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/people"
+          to="/alien-species-page/people"
           onClick={handleClose}
         >
           <Groups sx={styles.icon} />
@@ -123,7 +123,7 @@ const DropdownMenu = () => {
         <MenuItem
           sx={styles.item}
           component={Link}
-          to="/references"
+          to="/alien-species-page/references"
           onClick={handleClose}
         >
           <FormatListBulleted sx={styles.icon} />
