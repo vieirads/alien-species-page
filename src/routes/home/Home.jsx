@@ -9,14 +9,34 @@
 
 import Structure from "../../components/Structure";
 import Dashboard from "../../components/Dashboard";
+import { Typography } from "@mui/material";
+
+import translateJson from "../../data/translate.json";
+import Navbar from "../../components/Navbar";
+import { useState } from "react";
 
 const Home = () => {
-  const groupId = "fishes";
+  const groupId = "pooled";
+
+  const [language, setLanguage] = useState("pt");
+
+  const handleLanguageChange = () => {
+    language === "pt" ? setLanguage("en") : setLanguage("pt");
+  };
+
   return (
     <div>
+      {/* <Navbar /> */}
       <Structure
-        title={"Início"}
-        feedContent={<Dashboard groupId={groupId} />}
+        title={translateJson.home.title[language]}
+        feedContent={
+          <div>
+            <Typography variant="text">
+              {translateJson.home.firstParagraph[language]}
+            </Typography>
+            <Dashboard groupId={groupId} />
+          </div>
+        }
       />
     </div>
   );

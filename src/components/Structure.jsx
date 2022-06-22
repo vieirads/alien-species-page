@@ -5,12 +5,14 @@ import { Grid } from "@mui/material";
 
 const Structure = ({ title, feedContent }) => {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <Navbar />
       <Grid
         container
         spacing={2}
-        sx={{ marginLeft: { xs: 3, sm: 3, md: -5, lg: -5, xl: -5 } }}
+        sx={{
+          marginLeft: { xl: -20 },
+        }}
       >
         <Grid item xs={0} sm={0} md={3} lg={3} xl={3}>
           <Leftbar />

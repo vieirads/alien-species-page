@@ -5,7 +5,7 @@ const BarPlot = ({ data }) => (
     data={data}
     keys={["Invasivo", "Nativo", "Total"]}
     indexBy="continent"
-    margin={{ top: 20, right: 40, bottom: 130, left: 70 }}
+    margin={{ top: 20, right: 30, bottom: 120, left: 70 }}
     padding={0.3}
     groupMode="grouped"
     valueScale={{ type: "linear" }}

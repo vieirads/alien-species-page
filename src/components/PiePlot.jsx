@@ -1,9 +1,9 @@
 import { ResponsivePie } from "@nivo/pie";
 
-const PiePlot = ({ data }) => (
+const PiePlot = ({ data, angle }) => (
   <ResponsivePie
     data={data}
-    margin={{ top: 40, right: 100, bottom: 100, left: 100 }}
+    margin={{ top: 40, right: 20, bottom: 100, left: 20 }}
     innerRadius={0.5}
     padAngle={0.7}
     cornerRadius={3}
@@ -13,6 +13,7 @@ const PiePlot = ({ data }) => (
       from: "color",
       modifiers: [["darker", 0.2]],
     }}
+    startAngle={angle}
     // valueFormat=" >-.3f"
     arcLinkLabelsSkipAngle={10}
     arcLinkLabelsTextColor="#333333"

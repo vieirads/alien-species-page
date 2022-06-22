@@ -4,8 +4,8 @@ import MapPlot from "./MapPlot";
 import PiePlot from "./PiePlot";
 import ScatterPlot from "./ScatterPlot";
 
-import mapData from "../data/mapData";
-import barData from "../data/barData";
+import mapData from "../data/finalMapData";
+import barData from "../data/finalBarData";
 import pieData from "../data/occurrences/pieData";
 
 import groupOccurrences from "../data/group_occurrences";
@@ -18,6 +18,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "space-around",
     flexWrap: "wrap",
+    padding: 5,
   },
   numbers: {
     fontSize: "1.2rem",
@@ -39,6 +40,21 @@ const styles = {
   },
 };
 
+const angleGroups = {
+  pooled: -100,
+  molluscs: -20,
+  arachnids: 0,
+  crustaceans: -50,
+  insects: -70,
+  fishes: -290,
+  amphibians: -300,
+  reptiles: -260,
+  birds: -280,
+  mammals: -320,
+  pteridophytes: -280,
+  angiosperms: -295,
+};
+
 const formatThousand = (n) => {
   return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
@@ -46,7 +62,7 @@ const formatThousand = (n) => {
 const Dashboard = ({ groupId }) => {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={3}>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={4}>
         <Paper sx={styles.paper}>
           <div
             style={{
@@ -73,12 +89,12 @@ const Dashboard = ({ groupId }) => {
               </Typography>
             </div>
           </div>
-          <PiePlot data={pieData[groupId]} />
+          <PiePlot data={pieData[groupId]} angle={angleGroups[groupId]} />
         </Paper>
       </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={9}>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={8}>
         <Paper sx={styles.paper}>
-          <MapPlot data={mapData} />
+          <MapPlot data={mapData[groupId]} />
         </Paper>
       </Grid>
       <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>

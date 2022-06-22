@@ -9,8 +9,11 @@ import { AppBar, Box, Link, Toolbar, Typography } from "@mui/material";
 import { teal } from "@mui/material/colors";
 import uemLogo from "../imgs/uem.png";
 import LanguageIcon from "@mui/icons-material/Language";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
+// import DarkModeIcon from "@mui/icons-material/DarkMode";
 import DropdownMenu from "./DropdownMenu";
+import { useState } from "react";
+
+import translateJson from "../data/translate.json";
 
 const styles = {
   toolbar: {
@@ -51,6 +54,12 @@ const styles = {
 };
 
 const Navbar = () => {
+  const [language, setLanguage] = useState("pt");
+
+  const handleLanguageChange = () => {
+    language === "pt" ? setLanguage("en") : setLanguage("pt");
+  };
+
   return (
     <AppBar position="fixed">
       <Toolbar sx={styles.toolbar}>
@@ -70,14 +79,14 @@ const Navbar = () => {
           </Link>
         </Box>
         <Typography variant="h6" sx={styles.title}>
-          Espécies invasoras
+          {translateJson.navbar[language]}
         </Typography>
         <Box sx={styles.pageConfig}>
           <Box sx={styles.langContainer}>
-            <LanguageIcon />
-            <Typography sx={styles.langText}>PT</Typography>
+            <LanguageIcon onClick={() => handleLanguageChange()} />
+            <Typography sx={styles.langText}>{language}</Typography>
           </Box>
-          <DarkModeIcon sx={{ cursor: "pointer" }} />
+          {/* <DarkModeIcon sx={{ cursor: "pointer" }} /> */}
         </Box>
       </Toolbar>
     </AppBar>

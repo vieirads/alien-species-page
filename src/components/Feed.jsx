@@ -4,11 +4,11 @@ const styles = {
   container: {
     paddingTop: 12,
     marginBottom: 5,
+    marginLeft: -3,
     // backgroundColor: "yellow",
   },
   title: {
     color: "gray",
-    marginLeft: { xs: 3, sm: 3, md: -3, lg: -5, xl: -15 },
   },
 };
 

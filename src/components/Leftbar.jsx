@@ -17,13 +17,19 @@ import { Link } from "react-router-dom";
 
 const styles = {
   container: {
-    position: "absolute",
+    position: "fixed",
     top: 0,
     left: 0,
     paddingTop: 12,
     marginLeft: -1,
     height: "100vh",
-    width: "20vw",
+    width: {
+      xs: 0,
+      sm: 0,
+      md: "20vw",
+      lg: "15vw",
+      xl: "10vw",
+    },
     border: "1px solid rgba(0,0,0,0.08)",
     display: { xs: "none", md: "flex" },
     flexDirection: "column",
