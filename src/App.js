@@ -1,3 +1,6 @@
+import React, { useContext } from "react";
+
+import Navbar from "./components/Navbar";
 import Home from "./routes/home/Home";
 import Groups from "./routes/groups/Groups";
 import Group from "./routes/group/Group";
@@ -9,10 +12,14 @@ import Data from "./routes/data/Data";
 import Model from "./routes/model/Model";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Context } from "./components/LanguageWrapper";
 
 function App() {
+  const context = useContext(Context);
+
   return (
     <div className="App">
+      <Navbar changeLanguageFunction={() => context.changeLanguageFunction()} />
       <BrowserRouter>
         <Routes>
           <Route path="/alien-species-page">

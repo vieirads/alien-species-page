@@ -9,11 +9,9 @@ import { AppBar, Box, Link, Toolbar, Typography } from "@mui/material";
 import { teal } from "@mui/material/colors";
 import uemLogo from "../imgs/uem.png";
 import LanguageIcon from "@mui/icons-material/Language";
-// import DarkModeIcon from "@mui/icons-material/DarkMode";
 import DropdownMenu from "./DropdownMenu";
-import { useState } from "react";
 
-import translateJson from "../data/translate.json";
+import { FormattedMessage } from "react-intl";
 
 const styles = {
   toolbar: {
@@ -53,18 +51,11 @@ const styles = {
   langText: { display: { xs: "none", sm: "block" }, marginLeft: 1 },
 };
 
-const Navbar = () => {
-  const [language, setLanguage] = useState("pt");
-
-  const handleLanguageChange = () => {
-    language === "pt" ? setLanguage("en") : setLanguage("pt");
-  };
-
+const Navbar = ({ changeLanguageFunction }) => {
   return (
     <AppBar position="fixed">
       <Toolbar sx={styles.toolbar}>
         <Box sx={styles.logoAndMenu}>
-          {/* <MenuIcon sx={styles.menuButton} /> */}
           <DropdownMenu />
           <Link
             component="button"
@@ -79,14 +70,18 @@ const Navbar = () => {
           </Link>
         </Box>
         <Typography variant="h6" sx={styles.title}>
-          {translateJson.navbar[language]}
+          <FormattedMessage id="navbar.title" default="PT"></FormattedMessage>
         </Typography>
         <Box sx={styles.pageConfig}>
           <Box sx={styles.langContainer}>
-            <LanguageIcon onClick={() => handleLanguageChange()} />
-            <Typography sx={styles.langText}>{language}</Typography>
+            <LanguageIcon onClick={changeLanguageFunction} />
+            <Typography sx={styles.langText}>
+              <FormattedMessage
+                id="navbar.icon.text"
+                default="PT"
+              ></FormattedMessage>
+            </Typography>
           </Box>
-          {/* <DarkModeIcon sx={{ cursor: "pointer" }} /> */}
         </Box>
       </Toolbar>
     </AppBar>

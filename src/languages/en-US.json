@@ -1,0 +1,15 @@
+{
+  "navbar.title": "Alien species",
+  "navbar.icon.text": "EN",
+  "leftbar.home": "Home",
+  "leftbar.groups": "Groups",
+  "leftbar.data": "Data",
+  "leftbar.model": "Model",
+  "leftbar.paper": "Paper",
+  "leftbar.people": "People",
+  "leftbar.references": "References",
+  "home.title": "Home",
+  "home.paragraph": "Trying some stuff here.",
+  "dashboard.occurrences": "Occurrences",
+  "dashboard.species": "Species"
+}

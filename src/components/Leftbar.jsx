@@ -14,6 +14,7 @@ import {
   DataObject,
 } from "@mui/icons-material/";
 import { Link } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
 const styles = {
   container: {
@@ -54,27 +55,57 @@ const Leftbar = () => {
     <Container sx={styles.container}>
       <Box component={Link} to="/alien-species-page" sx={styles.item}>
         <Home sx={styles.icon} />
-        <Typography>Início</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.home"
+            default="Início"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box component={Link} to="/alien-species-page/groups" sx={styles.item}>
         <Workspaces sx={styles.icon} />
-        <Typography>Grupos</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.groups"
+            default="Grupos"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box component={Link} to="/alien-species-page/data" sx={styles.item}>
         <DataObject sx={styles.icon} />
-        <Typography>Dados</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.data"
+            default="Dados"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box component={Link} to="/alien-species-page/model" sx={styles.item}>
         <Timeline sx={styles.icon} />
-        <Typography>Modelo</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.model"
+            default="Modelo"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box component={Link} to="/alien-species-page/paper" sx={styles.item}>
         <Article sx={styles.icon} />
-        <Typography>Artigo</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.paper"
+            default="Artigo"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box component={Link} to="/alien-species-page/people" sx={styles.item}>
         <Groups sx={styles.icon} />
-        <Typography>Pessoas</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.people"
+            default="People"
+          ></FormattedMessage>
+        </Typography>
       </Box>
       <Box
         component={Link}
@@ -82,7 +113,12 @@ const Leftbar = () => {
         sx={styles.item}
       >
         <FormatListBulleted sx={styles.icon} />
-        <Typography>Referências</Typography>
+        <Typography>
+          <FormattedMessage
+            id="leftbar.references"
+            default="Referências"
+          ></FormattedMessage>
+        </Typography>
       </Box>
     </Container>
   );

@@ -10,6 +10,7 @@ import pieData from "../data/occurrences/pieData";
 
 import groupOccurrences from "../data/group_occurrences";
 import occurrencesAll from "../data/occurrences/occurrencesAll";
+import { FormattedMessage } from "react-intl";
 
 const styles = {
   paper: {
@@ -74,7 +75,10 @@ const Dashboard = ({ groupId }) => {
           >
             <div style={styles.item}>
               <Typography sx={styles.title} color="gray">
-                Ocorrências
+                <FormattedMessage
+                  id="dashboard.occurrences"
+                  default="Ocorrências"
+                ></FormattedMessage>
               </Typography>
               <Typography sx={styles.numbers}>
                 {formatThousand(groupOccurrences[groupId].total)}
@@ -82,7 +86,10 @@ const Dashboard = ({ groupId }) => {
             </div>
             <div style={styles.item}>
               <Typography sx={styles.title} color="gray">
-                Espécies
+                <FormattedMessage
+                  id="dashboard.species"
+                  default="Espécies"
+                ></FormattedMessage>
               </Typography>
               <Typography sx={styles.numbers}>
                 {groupOccurrences[groupId].num_species}

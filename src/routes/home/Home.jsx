@@ -2,37 +2,34 @@
  * TODO:
  * - [x] make navbar
  * - [x] make sidebar
+ * - [x] fix page open when click on the logo
+ * - [x] create event to drop a menu down when the `MenuIcon` is clicked in `xs` size.
  * - make bottom bar with contact information about the developer and important links
- * - fix page open when click on the logo
- * - create event to drop a menu down when the `MenuIcon` is clicked in `xs` size.
  */
 
 import Structure from "../../components/Structure";
 import Dashboard from "../../components/Dashboard";
 import { Typography } from "@mui/material";
 
-import translateJson from "../../data/translate.json";
-import Navbar from "../../components/Navbar";
 import { useState } from "react";
+import { FormattedMessage } from "react-intl";
 
 const Home = () => {
   const groupId = "pooled";
 
-  const [language, setLanguage] = useState("pt");
-
-  const handleLanguageChange = () => {
-    language === "pt" ? setLanguage("en") : setLanguage("pt");
-  };
-
   return (
     <div>
-      {/* <Navbar /> */}
       <Structure
-        title={translateJson.home.title[language]}
+        title={
+          <FormattedMessage id="home.title" default="Início"></FormattedMessage>
+        }
         feedContent={
           <div>
             <Typography variant="text">
-              {translateJson.home.firstParagraph[language]}
+              <FormattedMessage
+                id="home.paragraph"
+                default="Testando umas coisas aqui."
+              ></FormattedMessage>
             </Typography>
             <Dashboard groupId={groupId} />
           </div>

@@ -14,7 +14,6 @@ const PiePlot = ({ data, angle }) => (
       modifiers: [["darker", 0.2]],
     }}
     startAngle={angle}
-    // valueFormat=" >-.3f"
     arcLinkLabelsSkipAngle={10}
     arcLinkLabelsTextColor="#333333"
     arcLinkLabelsThickness={3}

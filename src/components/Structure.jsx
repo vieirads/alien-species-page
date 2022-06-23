@@ -6,7 +6,6 @@ import { Grid } from "@mui/material";
 const Structure = ({ title, feedContent }) => {
   return (
     <div style={{ position: "relative" }}>
-      <Navbar />
       <Grid
         container
         spacing={2}
