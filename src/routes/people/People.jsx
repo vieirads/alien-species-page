@@ -2,6 +2,7 @@
  * TODO:
  * - [x] list of people that contributed to the paper
  * - [x] card for each person with basic information
+ * - [x] fix vertical size of cards
  * - fill information about each person
  * - put right links into each person's buttons
  */
@@ -9,12 +10,14 @@
 import Structure from "../../components/Structure";
 import PersonCard from "../../components/Card";
 
-import photoDenner from "../../imgs/people/denner.jpg";
-import photoRenio from "../../imgs/people/renio.jpg";
 import photoRoger from "../../imgs/people/roger.jpg";
+import photoDenner from "../../imgs/people/denner.jpg";
+import photoDayani from "../../imgs/people/dayani.jpeg";
 import photoWeferson from "../../imgs/people/weferson.jpg";
 import photoKarina from "../../imgs/people/karina.png";
 import photoSidinei from "../../imgs/people/sidinei.gif";
+import photoRenio from "../../imgs/people/renio.jpg";
+import photoAvatar from "../../imgs/people/avatar.png";
 
 import { Grid } from "@mui/material";
 
@@ -46,9 +49,9 @@ const People = () => {
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <PersonCard
                 name="Bailly, D."
-                imgPath=""
+                imgPath={photoDayani}
                 textInfo="Prof. Titular na UEM"
-                scholarLink=""
+                scholarLink="https://scholar.google.com.br/citations?user=ueQDPLIAAAAJ&hl=pt-BR"
                 labLink=""
               />
             </Grid>
@@ -64,7 +67,7 @@ const People = () => {
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <PersonCard
                 name="da Silva, V. F. B."
-                imgPath=""
+                imgPath={photoAvatar}
                 textInfo="Prof. Titular na UEM"
                 scholarLink=""
                 labLink=""
@@ -82,7 +85,7 @@ const People = () => {
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <PersonCard
                 name="Bueno, M. L."
-                imgPath=""
+                imgPath={photoAvatar}
                 textInfo="Prof. Titular na UEM"
                 scholarLink=""
                 labLink=""

@@ -1,4 +1,9 @@
+/**
+ * TODO:
+ * - create a radio button to change scales from linear to log
+ */
 import { ResponsiveLine } from "@nivo/line";
+import { FormattedMessage } from "react-intl";
 
 const ScatterPlot = ({ data }) => (
   <ResponsiveLine
@@ -20,8 +25,13 @@ const ScatterPlot = ({ data }) => (
       tickSize: 5,
       tickPadding: 5,
       tickRotation: 45,
-      legend: "Tempo [anos]",
-      legendOffset: 45,
+      legend: (
+        <FormattedMessage
+          id="dashboard.scatter.xlabel"
+          default="Tempo [anos]"
+        />
+      ),
+      legendOffset: 55,
       legendPosition: "middle",
     }}
     axisLeft={{
@@ -29,8 +39,13 @@ const ScatterPlot = ({ data }) => (
       tickSize: 5,
       tickPadding: 5,
       tickRotation: 0,
-      legend: "Ocorrências acumuladas",
-      legendOffset: -55,
+      legend: (
+        <FormattedMessage
+          id="dashboard.scatter.ylabel"
+          default="Ocorrências acumuladas"
+        />
+      ),
+      legendOffset: -65,
       legendPosition: "middle",
       tickValues: [
         1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000,

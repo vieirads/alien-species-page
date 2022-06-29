@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import Leftbar from "./Leftbar";
 import Feed from "./Feed";
 import { Grid } from "@mui/material";

@@ -10,6 +10,7 @@ import {
 import { School, Science } from "@mui/icons-material/";
 
 import { Link as LinkRD } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
 const PersonCard = ({
   name,
@@ -26,7 +27,7 @@ const PersonCard = ({
           component="img"
           image={imgPath}
           alt={`photo-${name}`}
-          sx={{ objectFit: "center", maxHeight: 340 }}
+          sx={{ objectFit: "center", maxHeight: 300 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -65,7 +66,12 @@ const PersonCard = ({
                 to={`/alien-species-page/groups/${goToPageLink}`}
                 size="small"
               >
-                Veja mais
+                {
+                  <FormattedMessage
+                    id="card.seeMore"
+                    default="Veja mais"
+                  ></FormattedMessage>
+                }
               </Button>
             </>
           )}

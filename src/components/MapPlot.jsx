@@ -1,3 +1,7 @@
+/**
+ * TODO:
+ * - fix map to display invasive (red) and native (blue) numbers within each country
+ */
 import { ResponsiveChoropleth } from "@nivo/geo";
 
 import worldCountries from "../data/worldCountries";

@@ -1,3 +1,8 @@
+/**
+ * TODO:
+ * - add radio button to change from linear to log scale in bar and scatter plots.
+ */
+
 import { Grid, Paper, Typography } from "@mui/material";
 import BarPlot from "./BarPlot";
 import MapPlot from "./MapPlot";
@@ -10,7 +15,7 @@ import pieData from "../data/occurrences/pieData";
 
 import groupOccurrences from "../data/group_occurrences";
 import occurrencesAll from "../data/occurrences/occurrencesAll";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedNumber } from "react-intl";
 
 const styles = {
   paper: {
@@ -56,9 +61,9 @@ const angleGroups = {
   angiosperms: -295,
 };
 
-const formatThousand = (n) => {
-  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-};
+// const formatThousand = (n) => {
+//   return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+// };
 
 const Dashboard = ({ groupId }) => {
   return (
@@ -76,18 +81,19 @@ const Dashboard = ({ groupId }) => {
             <div style={styles.item}>
               <Typography sx={styles.title} color="gray">
                 <FormattedMessage
-                  id="dashboard.occurrences"
+                  id="dashboard.pie.occurrences"
                   default="Ocorrências"
                 ></FormattedMessage>
               </Typography>
               <Typography sx={styles.numbers}>
-                {formatThousand(groupOccurrences[groupId].total)}
+                <FormattedNumber value={groupOccurrences[groupId].total} />
+                {/* {formatThousand(groupOccurrences[groupId].total)} */}
               </Typography>
             </div>
             <div style={styles.item}>
               <Typography sx={styles.title} color="gray">
                 <FormattedMessage
-                  id="dashboard.species"
+                  id="dashboard.pie.species"
                   default="Espécies"
                 ></FormattedMessage>
               </Typography>

@@ -11,7 +11,6 @@ import Structure from "../../components/Structure";
 import Dashboard from "../../components/Dashboard";
 import { Typography } from "@mui/material";
 
-import { useState } from "react";
 import { FormattedMessage } from "react-intl";
 
 const Home = () => {

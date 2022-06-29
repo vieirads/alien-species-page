@@ -7,25 +7,11 @@
  * - make bar plots for number of occurrences (per status) in each continent
  */
 
+import { FormattedMessage } from "react-intl";
 import { useParams } from "react-router-dom";
 
 import Dashboard from "../../components/Dashboard";
 import Structure from "../../components/Structure";
-
-const translateGroup = {
-  molluscs: "Moluscos",
-  arachnids: "Araquinídeos",
-  crustaceans: "Crustáceos",
-  insects: "Insetos",
-  fishes: "Peixes",
-  amphibians: "Anfíbios",
-  reptiles: "Répteis",
-  birds: "Pássaros",
-  mammals: "Mamíferos",
-  algae: "Algas",
-  pteridophytes: "Pteridófitas",
-  angiosperms: "Angiospermas",
-};
 
 const Group = () => {
   const { groupId } = useParams();
@@ -33,8 +19,15 @@ const Group = () => {
   return (
     <div>
       <Structure
-        title={translateGroup[groupId]}
-        feedContent={<Dashboard groupId={groupId} />}
+        title={<FormattedMessage id={`groups.${groupId}.title`} />}
+        feedContent={
+          <div>
+            <FormattedMessage
+              id={`groups.${groupId}.paragraph`}
+            ></FormattedMessage>
+            <Dashboard groupId={groupId} />
+          </div>
+        }
       />
     </div>
   );

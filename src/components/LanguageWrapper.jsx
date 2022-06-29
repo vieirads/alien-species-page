@@ -19,16 +19,6 @@ const LanguageWrapper = (props) => {
   const [locale, setLocale] = useState(local);
   const [messages, setMessages] = useState(lang);
 
-  // const changeLanguageFunction = (e) => {
-  //   const newLocale = e.target.value;
-  //   setLocale(newLocale);
-  //   if (newLocale === "en-US") {
-  //     setMessages(Portuguese);
-  //   } else {
-  //     setMessages(English);
-  //   }
-  // };
-
   const changeLanguageFunction = () => {
     if (locale === "en-US") {
       setMessages(Portuguese);
