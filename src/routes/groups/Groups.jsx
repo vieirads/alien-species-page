@@ -3,7 +3,8 @@
  * - [x] list of groups
  * - [x] each one will have a card with basic information: number of species, number of occurrences (native, invasive) etc.
  * - [x] redirect the pages to each group, e.g., when click on "molluscs" go to the page "/groups/molluscs"
- * - Brief description of each group in the card.
+ * - [x] Brief description of each group in the card.
+ * - make the description with a limit size and a button to expand the text so the cards have all the same size.
  *
  */
 import Structure from "../../components/Structure";

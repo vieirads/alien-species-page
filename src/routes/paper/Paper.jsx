@@ -2,21 +2,20 @@
  * TODO:
  * Information about the paper
  */
+import { FormattedMessage } from "react-intl";
 import Structure from "../../components/Structure";
 
 const Paper = () => {
   return (
     <div>
       <Structure
-        title="Artigo"
-        feedContent={
-          <div>
-            <ul>
-              <li>1 - papper</li>
-              <li>2 - papper</li>
-            </ul>
-          </div>
+        title={
+          <FormattedMessage
+            id="paper.title"
+            default="Artigo"
+          ></FormattedMessage>
         }
+        feedContent={<div>Under development.</div>}
       />
     </div>
   );

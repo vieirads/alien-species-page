@@ -1,6 +1,6 @@
 /**
  * TODO:
- * - create a radio button to change scales from linear to log
+ * - [x] create a radio button to change scales from linear to log
  */
 import { ResponsiveLine } from "@nivo/line";
 import { FormattedMessage } from "react-intl";

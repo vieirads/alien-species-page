@@ -20,12 +20,18 @@ import photoRenio from "../../imgs/people/renio.jpg";
 import photoAvatar from "../../imgs/people/avatar.png";
 
 import { Grid } from "@mui/material";
+import { FormattedMessage } from "react-intl";
 
 const People = () => {
   return (
     <div>
       <Structure
-        title="Pessoas"
+        title={
+          <FormattedMessage
+            id="people.title"
+            default="Pessoas"
+          ></FormattedMessage>
+        }
         feedContent={
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={4} lg={3}>

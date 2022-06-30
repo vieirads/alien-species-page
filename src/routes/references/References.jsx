@@ -4,6 +4,7 @@
  * - [x] create a json file for the names
  */
 import { Link } from "@mui/material";
+import { FormattedMessage } from "react-intl";
 import Structure from "../../components/Structure";
 import referencesJson from "../../data/references";
 
@@ -11,7 +12,12 @@ const References = () => {
   return (
     <div>
       <Structure
-        title="Referências"
+        title={
+          <FormattedMessage
+            id="references.title"
+            default="Referências"
+          ></FormattedMessage>
+        }
         feedContent={
           <div>
             {referencesJson.map((value) => {

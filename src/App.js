@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar changeLanguageFunction={() => context.changeLanguageFunction()} />
+      {/* <Navbar changeLanguageFunction={() => context.changeLanguageFunction()} /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/alien-species-page">

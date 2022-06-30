@@ -1,8 +1,14 @@
 import Leftbar from "./Leftbar";
 import Feed from "./Feed";
+import Navbar from "./Navbar";
 import { Grid } from "@mui/material";
 
+import { Context } from "./LanguageWrapper";
+import { useContext } from "react";
+
 const Structure = ({ title, feedContent }) => {
+  const context = useContext(Context);
+
   return (
     <div style={{ position: "relative" }}>
       <Grid
@@ -12,6 +18,9 @@ const Structure = ({ title, feedContent }) => {
           marginLeft: { xl: -20 },
         }}
       >
+        <Navbar
+          changeLanguageFunction={() => context.changeLanguageFunction()}
+        />
         <Grid item xs={0} sm={0} md={3} lg={3} xl={3}>
           <Leftbar />
         </Grid>

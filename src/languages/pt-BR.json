@@ -41,5 +41,10 @@
   "dashboard.bar.ylabel": "Total de ocorrências",
   "dashboard.bar.xlabel": "Continente",
   "dashboard.scatter.ylabel": "Ocorrências acumuladas",
-  "dashboard.scatter.xlabel": "Tempo [anos]"
+  "dashboard.scatter.xlabel": "Tempo [anos]",
+  "data.title": "Dados",
+  "model.title": "Modelo",
+  "paper.title": "Artigo",
+  "people.title": "Pessoas",
+  "references.title": "Referências"
 }

@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.js": "/alien-species-page/static/js/main.047be0ef.js",
+    "main.js": "/alien-species-page/static/js/main.55491939.js",
+    "static/media/sidinei.gif": "/alien-species-page/static/media/sidinei.3d32d58a9bb2a7a296ed.gif",
     "static/media/denner.jpg": "/alien-species-page/static/media/denner.71c4c9fd53784616fa93.jpg",
+    "static/media/karina.png": "/alien-species-page/static/media/karina.d9a673608d436c7a0dfc.png",
+    "static/media/weferson.jpg": "/alien-species-page/static/media/weferson.57009d899ae320fd2b27.jpg",
     "static/media/reptiles.jpg": "/alien-species-page/static/media/reptiles.fbf41ece5e1406750515.jpg",
     "static/media/mammals.jpg": "/alien-species-page/static/media/mammals.37dbc185b939e1071461.jpg",
     "static/media/pteridophytes.jpg": "/alien-species-page/static/media/pteridophytes.675c3c23a6678ddc6d29.jpg",
@@ -13,11 +16,12 @@
     "static/media/uem.png": "/alien-species-page/static/media/uem.4d401ce93650222e9512.png",
     "static/media/insects.jpg": "/alien-species-page/static/media/insects.498a8cd626e5018ad6a5.jpg",
     "static/media/arachnids.jpg": "/alien-species-page/static/media/arachnids.735beb4b56269356181d.jpg",
+    "static/media/avatar.png": "/alien-species-page/static/media/avatar.c15280cf2239fea7bc5f.png",
     "static/media/crustaceans.jpg": "/alien-species-page/static/media/crustaceans.062d85b8183e5c52bf68.jpg",
     "index.html": "/alien-species-page/index.html",
-    "main.047be0ef.js.map": "/alien-species-page/static/js/main.047be0ef.js.map"
+    "main.55491939.js.map": "/alien-species-page/static/js/main.55491939.js.map"
   },
   "entrypoints": [
-    "static/js/main.047be0ef.js"
+    "static/js/main.55491939.js"
   ]
 }

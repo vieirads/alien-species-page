@@ -15,6 +15,7 @@ import {
   Timeline,
   Workspaces,
 } from "@mui/icons-material";
+import { FormattedMessage } from "react-intl";
 
 const DropdownMenu = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -41,7 +42,7 @@ const DropdownMenu = () => {
   };
 
   return (
-    <div>
+    <>
       <Button
         id="basic-button"
         aria-controls={open ? "basic-menu" : undefined}
@@ -72,8 +73,11 @@ const DropdownMenu = () => {
           to="/alien-species-page"
           onClick={handleClose}
         >
-          <Home />
-          Início
+          <Home sx={styles.icon} />
+          <FormattedMessage
+            id="leftbar.home"
+            default="Início"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -82,7 +86,10 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <Workspaces sx={styles.icon} />
-          Grupos
+          <FormattedMessage
+            id="leftbar.groups"
+            default="Grupos"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -91,7 +98,10 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <DataObject sx={styles.icon} />
-          Dados
+          <FormattedMessage
+            id="leftbar.data"
+            default="Dados"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -100,7 +110,10 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <Timeline sx={styles.icon} />
-          Modelo
+          <FormattedMessage
+            id="leftbar.model"
+            default="Modelo"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -109,7 +122,10 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <Article sx={styles.icon} />
-          Artigo
+          <FormattedMessage
+            id="leftbar.paper"
+            default="Artigo"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -118,7 +134,10 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <Groups sx={styles.icon} />
-          Pessoas
+          <FormattedMessage
+            id="leftbar.people"
+            default="People"
+          ></FormattedMessage>
         </MenuItem>
         <MenuItem
           sx={styles.item}
@@ -127,10 +146,13 @@ const DropdownMenu = () => {
           onClick={handleClose}
         >
           <FormatListBulleted sx={styles.icon} />
-          Referências
+          <FormattedMessage
+            id="leftbar.references"
+            default="Referências"
+          ></FormattedMessage>
         </MenuItem>
       </Menu>
-    </div>
+    </>
   );
 };
 

@@ -41,5 +41,10 @@
   "dashboard.bar.ylabel": "Total occurrences",
   "dashboard.bar.xlabel": "Continent",
   "dashboard.scatter.ylabel": "Pooled occurrences",
-  "dashboard.scatter.xlabel": "Time [years]"
+  "dashboard.scatter.xlabel": "Time [years]",
+  "data.title": "Data",
+  "model.title": "Model",
+  "paper.title": "Paper",
+  "people.title": "People",
+  "references.title": "References"
 }

@@ -1,6 +1,6 @@
 /**
  * TODO:
- * - add radio button to change from linear to log scale in bar and scatter plots.
+ * - [x] add radio button to change from linear to log scale in bar and scatter plots.
  */
 
 import { Grid, Paper, Typography } from "@mui/material";
