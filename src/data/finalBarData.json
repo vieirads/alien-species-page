@@ -1,266 +1,266 @@
 {
   "amphibians": {
     "pt-BR": [
-      {"Invasivo": 1.0, "Nativo": 1508.0, "Total": 1509.0, "continente": "África"},
-      {"Invasivo": 1.0, "Nativo": 0.0, "Total": 1.0, "continente": "Antártida"},
-      {"Invasivo": 132.0, "Nativo": 0.0, "Total": 132.0, "continente": "Ásia"},
-      {"Invasivo": 5712.0, "Nativo": 37.0, "Total": 5749.0, "continente": "América Central"},
-      {"Invasivo": 23332.0, "Nativo": 51558.0, "Total": 74890.0, "continente": "América do Norte"},
-      {"Invasivo": 524.0, "Nativo": 8687.0, "Total": 9211.0, "continente": "América do Sul"},
-      {"Invasivo": 1795.0, "Nativo": 0.0, "Total": 1795.0, "continente": "Europa"},
-      {"Invasivo": 2723.0, "Nativo": 17708.0, "Total": 20431.0, "continente": "Oceania"}
+      {"Invasivo": 1, "Nativo": 1508, "Total": 1509, "continente": "África"},
+      {"Invasivo": 1, "Nativo": 0, "Total": 1, "continente": "Antártida"},
+      {"Invasivo": 132, "Nativo": 0, "Total": 132, "continente": "Ásia"},
+      {"Invasivo": 5712, "Nativo": 37, "Total": 5749, "continente": "América Central"},
+      {"Invasivo": 23332, "Nativo": 51558, "Total": 74890, "continente": "América do Norte"},
+      {"Invasivo": 524, "Nativo": 8687, "Total": 9211, "continente": "América do Sul"},
+      {"Invasivo": 1795, "Nativo": 0, "Total": 1795, "continente": "Europa"},
+      {"Invasivo": 2723, "Nativo": 17708, "Total": 20431, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 1.0, "Native": 1508.0, "Total": 1509.0, "continent": "Africa"},
-      {"Invasive": 1.0, "Native": 0.0, "Total": 1.0, "continent": "Antarctica"},
-      {"Invasive": 132.0, "Native": 0.0, "Total": 132.0, "continent": "Asia"},
-      {"Invasive": 5712.0, "Native": 37.0, "Total": 5749.0, "continent": "Central America"},
-      {"Invasive": 23332.0, "Native": 51558.0, "Total": 74890.0, "continent": "North America"},
-      {"Invasive": 524.0, "Native": 8687.0, "Total": 9211.0, "continent": "South America"},
-      {"Invasive": 1795.0, "Native": 0.0, "Total": 1795.0, "continent": "Europe"},
-      {"Invasive": 2723.0, "Native": 17708.0, "Total": 20431.0, "continent": "Oceania"}
+      {"Invasive": 1, "Native": 1508, "Total": 1509, "continent": "Africa"},
+      {"Invasive": 1, "Native": 0, "Total": 1, "continent": "Antarctica"},
+      {"Invasive": 132, "Native": 0, "Total": 132, "continent": "Asia"},
+      {"Invasive": 5712, "Native": 37, "Total": 5749, "continent": "Central America"},
+      {"Invasive": 23332, "Native": 51558, "Total": 74890, "continent": "North America"},
+      {"Invasive": 524, "Native": 8687, "Total": 9211, "continent": "South America"},
+      {"Invasive": 1795, "Native": 0, "Total": 1795, "continent": "Europe"},
+      {"Invasive": 2723, "Native": 17708, "Total": 20431, "continent": "Oceania"}
     ]
   },
   "angiosperms": {
     "pt-BR": [
-      {"Invasivo": 4336.0, "Nativo": 1123.0, "Total": 5459.0, "continente": "África"},
-      {"Invasivo": 61.0, "Nativo": 0.0, "Total": 61.0, "continente": "Antártida"},
-      {"Invasivo": 3829.0, "Nativo": 5239.0, "Total": 9068.0, "continente": "Ásia"},
-      {"Invasivo": 7041.0, "Nativo": 11410.0, "Total": 18451.0, "continente": "América Central"},
-      {"Invasivo": 67778.0, "Nativo": 16596.0, "Total": 84374.0, "continente": "América do Norte"},
-      {"Invasivo": 1099.0, "Nativo": 8343.0, "Total": 9442.0, "continente": "América do Sul"},
-      {"Invasivo": 172555.0, "Nativo": 642946.0, "Total": 815501.0, "continente": "Europa"},
-      {"Invasivo": 39969.0, "Nativo": 4100.0, "Total": 44069.0, "continente": "Oceania"}
+      {"Invasivo": 4336, "Nativo": 1123, "Total": 5459, "continente": "África"},
+      {"Invasivo": 61, "Nativo": 0, "Total": 61, "continente": "Antártida"},
+      {"Invasivo": 3829, "Nativo": 5239, "Total": 9068, "continente": "Ásia"},
+      {"Invasivo": 7041, "Nativo": 11410, "Total": 18451, "continente": "América Central"},
+      {"Invasivo": 67778, "Nativo": 16596, "Total": 84374, "continente": "América do Norte"},
+      {"Invasivo": 1099, "Nativo": 8343, "Total": 9442, "continente": "América do Sul"},
+      {"Invasivo": 172555, "Nativo": 642946, "Total": 815501, "continente": "Europa"},
+      {"Invasivo": 39969, "Nativo": 4100, "Total": 44069, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 4336.0, "Native": 1123.0, "Total": 5459.0, "continent": "Africa"},
-      {"Invasive": 61.0, "Native": 0.0, "Total": 61.0, "continent": "Antarctica"},
-      {"Invasive": 3829.0, "Native": 5239.0, "Total": 9068.0, "continent": "Asia"},
-      {"Invasive": 7041.0, "Native": 11410.0, "Total": 18451.0, "continent": "Central America"},
-      {"Invasive": 67778.0, "Native": 16596.0, "Total": 84374.0, "continent": "North America"},
-      {"Invasive": 1099.0, "Native": 8343.0, "Total": 9442.0, "continent": "South America"},
-      {"Invasive": 172555.0, "Native": 642946.0, "Total": 815501.0, "continent": "Europe"},
-      {"Invasive": 39969.0, "Native": 4100.0, "Total": 44069.0, "continent": "Oceania"}
+      {"Invasive": 4336, "Native": 1123, "Total": 5459, "continent": "Africa"},
+      {"Invasive": 61, "Native": 0, "Total": 61, "continent": "Antarctica"},
+      {"Invasive": 3829, "Native": 5239, "Total": 9068, "continent": "Asia"},
+      {"Invasive": 7041, "Native": 11410, "Total": 18451, "continent": "Central America"},
+      {"Invasive": 67778, "Native": 16596, "Total": 84374, "continent": "North America"},
+      {"Invasive": 1099, "Native": 8343, "Total": 9442, "continent": "South America"},
+      {"Invasive": 172555, "Native": 642946, "Total": 815501, "continent": "Europe"},
+      {"Invasive": 39969, "Native": 4100, "Total": 44069, "continent": "Oceania"}
     ]
   },
   "arachnids": {
     "pt-BR": [
-      {"Invasivo": 1.0, "Nativo": 0.0, "Total": 1.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 0.0, "Nativo": 6.0, "Total": 6.0, "continente": "Ásia"},
-      {"Invasivo": 16.0, "Nativo": 0.0, "Total": 16.0, "continente": "América Central"},
-      {"Invasivo": 369157.0, "Nativo": 0.0, "Total": 369157.0, "continente": "América do Norte"},
-      {"Invasivo": 25.0, "Nativo": 0.0, "Total": 25.0, "continente": "América do Sul"},
-      {"Invasivo": 0.0, "Nativo": 3636.0, "Total": 3636.0, "continente": "Europa"},
-      {"Invasivo": 94.0, "Nativo": 0.0, "Total": 94.0, "continente": "Oceania"}
+      {"Invasivo": 1, "Nativo": 0, "Total": 1, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 0, "Nativo": 6, "Total": 6, "continente": "Ásia"},
+      {"Invasivo": 16, "Nativo": 0, "Total": 16, "continente": "América Central"},
+      {"Invasivo": 369157, "Nativo": 0, "Total": 369157, "continente": "América do Norte"},
+      {"Invasivo": 25, "Nativo": 0, "Total": 25, "continente": "América do Sul"},
+      {"Invasivo": 0, "Nativo": 3636, "Total": 3636, "continente": "Europa"},
+      {"Invasivo": 94, "Nativo": 0, "Total": 94, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 1.0, "Native": 0.0, "Total": 1.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 0.0, "Native": 6.0, "Total": 6.0, "continent": "Asia"},
-      {"Invasive": 16.0, "Native": 0.0, "Total": 16.0, "continent": "Central America"},
-      {"Invasive": 369157.0, "Native": 0.0, "Total": 369157.0, "continent": "North America"},
-      {"Invasive": 25.0, "Native": 0.0, "Total": 25.0, "continent": "South America"},
-      {"Invasive": 0.0, "Native": 3636.0, "Total": 3636.0, "continent": "Europe"},
-      {"Invasive": 94.0, "Native": 0.0, "Total": 94.0, "continent": "Oceania"}
+      {"Invasive": 1, "Native": 0, "Total": 1, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 0, "Native": 6, "Total": 6, "continent": "Asia"},
+      {"Invasive": 16, "Native": 0, "Total": 16, "continent": "Central America"},
+      {"Invasive": 369157, "Native": 0, "Total": 369157, "continent": "North America"},
+      {"Invasive": 25, "Native": 0, "Total": 25, "continent": "South America"},
+      {"Invasive": 0, "Native": 3636, "Total": 3636, "continent": "Europe"},
+      {"Invasive": 94, "Native": 0, "Total": 94, "continent": "Oceania"}
     ]
   },
   "birds": {
     "pt-BR": [
-      {"Invasivo": 69180.0, "Nativo": 478261.0, "Total": 547441.0, "continente": "África"},
-      {"Invasivo": 1.0, "Nativo": 0.0, "Total": 1.0, "continente": "Antártida"},
-      {"Invasivo": 82.0, "Nativo": 438096.0, "Total": 438178.0, "continente": "Ásia"},
-      {"Invasivo": 107208.0, "Nativo": 163853.0, "Total": 271061.0, "continente": "América Central"},
-      {"Invasivo": 15984209.0, "Nativo": 19829826.0, "Total": 35814035.0, "continente": "América do Norte"},
-      {"Invasivo": 34342.0, "Nativo": 139776.0, "Total": 174118.0, "continente": "América do Sul"},
-      {"Invasivo": 499874.0, "Nativo": 3868148.0, "Total": 4368022.0, "continente": "Europa"},
-      {"Invasivo": 428798.0, "Nativo": 291414.0, "Total": 720212.0, "continente": "Oceania"}
+      {"Invasivo": 69180, "Nativo": 478261, "Total": 547441, "continente": "África"},
+      {"Invasivo": 1, "Nativo": 0, "Total": 1, "continente": "Antártida"},
+      {"Invasivo": 82, "Nativo": 438096, "Total": 438178, "continente": "Ásia"},
+      {"Invasivo": 107208, "Nativo": 163853, "Total": 271061, "continente": "América Central"},
+      {"Invasivo": 15984209, "Nativo": 19829826, "Total": 35814035, "continente": "América do Norte"},
+      {"Invasivo": 34342, "Nativo": 139776, "Total": 174118, "continente": "América do Sul"},
+      {"Invasivo": 499874, "Nativo": 3868148, "Total": 4368022, "continente": "Europa"},
+      {"Invasivo": 428798, "Nativo": 291414, "Total": 720212, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 69180.0, "Native": 478261.0, "Total": 547441.0, "continent": "Africa"},
-      {"Invasive": 1.0, "Native": 0.0, "Total": 1.0, "continent": "Antarctica"},
-      {"Invasive": 82.0, "Native": 438096.0, "Total": 438178.0, "continent": "Asia"},
-      {"Invasive": 107208.0, "Native": 163853.0, "Total": 271061.0, "continent": "Central America"},
-      {"Invasive": 15984209.0, "Native": 19829826.0, "Total": 35814035.0, "continent": "North America"},
-      {"Invasive": 34342.0, "Native": 139776.0, "Total": 174118.0, "continent": "South America"},
-      {"Invasive": 499874.0, "Native": 3868148.0, "Total": 4368022.0, "continent": "Europe"},
-      {"Invasive": 428798.0, "Native": 291414.0, "Total": 720212.0, "continent": "Oceania"}
+      {"Invasive": 69180, "Native": 478261, "Total": 547441, "continent": "Africa"},
+      {"Invasive": 1, "Native": 0, "Total": 1, "continent": "Antarctica"},
+      {"Invasive": 82, "Native": 438096, "Total": 438178, "continent": "Asia"},
+      {"Invasive": 107208, "Native": 163853, "Total": 271061, "continent": "Central America"},
+      {"Invasive": 15984209, "Native": 19829826, "Total": 35814035, "continent": "North America"},
+      {"Invasive": 34342, "Native": 139776, "Total": 174118, "continent": "South America"},
+      {"Invasive": 499874, "Native": 3868148, "Total": 4368022, "continent": "Europe"},
+      {"Invasive": 428798, "Native": 291414, "Total": 720212, "continent": "Oceania"}
     ]
   },
   "crustaceans": {
     "pt-BR": [
-      {"Invasivo": 7.0, "Nativo": 0.0, "Total": 7.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 19.0, "Nativo": 0.0, "Total": 19.0, "continente": "Ásia"},
-      {"Invasivo": 303.0, "Nativo": 0.0, "Total": 303.0, "continente": "América Central"},
-      {"Invasivo": 2085.0, "Nativo": 3715.0, "Total": 5800.0, "continente": "América do Norte"},
-      {"Invasivo": 3.0, "Nativo": 0.0, "Total": 3.0, "continente": "América do Sul"},
-      {"Invasivo": 14002.0, "Nativo": 3555.0, "Total": 17557.0, "continente": "Europa"},
-      {"Invasivo": 71.0, "Nativo": 0.0, "Total": 71.0, "continente": "Oceania"}
+      {"Invasivo": 7, "Nativo": 0, "Total": 7, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 19, "Nativo": 0, "Total": 19, "continente": "Ásia"},
+      {"Invasivo": 303, "Nativo": 0, "Total": 303, "continente": "América Central"},
+      {"Invasivo": 2085, "Nativo": 3715, "Total": 5800, "continente": "América do Norte"},
+      {"Invasivo": 3, "Nativo": 0, "Total": 3, "continente": "América do Sul"},
+      {"Invasivo": 14002, "Nativo": 3555, "Total": 17557, "continente": "Europa"},
+      {"Invasivo": 71, "Nativo": 0, "Total": 71, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 7.0, "Native": 0.0, "Total": 7.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 19.0, "Native": 0.0, "Total": 19.0, "continent": "Asia"},
-      {"Invasive": 303.0, "Native": 0.0, "Total": 303.0, "continent": "Central America"},
-      {"Invasive": 2085.0, "Native": 3715.0, "Total": 5800.0, "continent": "North America"},
-      {"Invasive": 3.0, "Native": 0.0, "Total": 3.0, "continent": "South America"},
-      {"Invasive": 14002.0, "Native": 3555.0, "Total": 17557.0, "continent": "Europe"},
-      {"Invasive": 71.0, "Native": 0.0, "Total": 71.0, "continent": "Oceania"}
+      {"Invasive": 7, "Native": 0, "Total": 7, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 19, "Native": 0, "Total": 19, "continent": "Asia"},
+      {"Invasive": 303, "Native": 0, "Total": 303, "continent": "Central America"},
+      {"Invasive": 2085, "Native": 3715, "Total": 5800, "continent": "North America"},
+      {"Invasive": 3, "Native": 0, "Total": 3, "continent": "South America"},
+      {"Invasive": 14002, "Native": 3555, "Total": 17557, "continent": "Europe"},
+      {"Invasive": 71, "Native": 0, "Total": 71, "continent": "Oceania"}
     ]
   },
   "fishes": {
     "pt-BR": [
-      {"Invasivo": 573.0, "Nativo": 1498.0, "Total": 2071.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 4721.0, "Nativo": 680.0, "Total": 5401.0, "continente": "Ásia"},
-      {"Invasivo": 4799.0, "Nativo": 1.0, "Total": 4800.0, "continente": "América Central"},
-      {"Invasivo": 206498.0, "Nativo": 382141.0, "Total": 588639.0, "continente": "América do Norte"},
-      {"Invasivo": 735.0, "Nativo": 1459.0, "Total": 2194.0, "continente": "América do Sul"},
-      {"Invasivo": 4708.0, "Nativo": 9362.0, "Total": 14070.0, "continente": "Europa"},
-      {"Invasivo": 5608.0, "Nativo": 0.0, "Total": 5608.0, "continente": "Oceania"}
+      {"Invasivo": 573, "Nativo": 1498, "Total": 2071, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 4721, "Nativo": 680, "Total": 5401, "continente": "Ásia"},
+      {"Invasivo": 4799, "Nativo": 1, "Total": 4800, "continente": "América Central"},
+      {"Invasivo": 206498, "Nativo": 382141, "Total": 588639, "continente": "América do Norte"},
+      {"Invasivo": 735, "Nativo": 1459, "Total": 2194, "continente": "América do Sul"},
+      {"Invasivo": 4708, "Nativo": 9362, "Total": 14070, "continente": "Europa"},
+      {"Invasivo": 5608, "Nativo": 0, "Total": 5608, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 573.0, "Native": 1498.0, "Total": 2071.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 4721.0, "Native": 680.0, "Total": 5401.0, "continent": "Asia"},
-      {"Invasive": 4799.0, "Native": 1.0, "Total": 4800.0, "continent": "Central America"},
-      {"Invasive": 206498.0, "Native": 382141.0, "Total": 588639.0, "continent": "North America"},
-      {"Invasive": 735.0, "Native": 1459.0, "Total": 2194.0, "continent": "South America"},
-      {"Invasive": 4708.0, "Native": 9362.0, "Total": 14070.0, "continent": "Europe"},
-      {"Invasive": 5608.0, "Native": 0.0, "Total": 5608.0, "continent": "Oceania"}
+      {"Invasive": 573, "Native": 1498, "Total": 2071, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 4721, "Native": 680, "Total": 5401, "continent": "Asia"},
+      {"Invasive": 4799, "Native": 1, "Total": 4800, "continent": "Central America"},
+      {"Invasive": 206498, "Native": 382141, "Total": 588639, "continent": "North America"},
+      {"Invasive": 735, "Native": 1459, "Total": 2194, "continent": "South America"},
+      {"Invasive": 4708, "Native": 9362, "Total": 14070, "continent": "Europe"},
+      {"Invasive": 5608, "Native": 0, "Total": 5608, "continent": "Oceania"}
     ]
   },
   "insects": {
     "pt-BR": [
-      {"Invasivo": 193.0, "Nativo": 1626.0, "Total": 1819.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 5729.0, "Nativo": 709.0, "Total": 6438.0, "continente": "Ásia"},
-      {"Invasivo": 13060.0, "Nativo": 3737.0, "Total": 16797.0, "continente": "América Central"},
-      {"Invasivo": 14796.0, "Nativo": 7522.0, "Total": 22318.0, "continente": "América do Norte"},
-      {"Invasivo": 5905.0, "Nativo": 1543.0, "Total": 7448.0, "continente": "América do Sul"},
-      {"Invasivo": 281.0, "Nativo": 22993.0, "Total": 23274.0, "continente": "Europa"},
-      {"Invasivo": 1035.0, "Nativo": 272.0, "Total": 1307.0, "continente": "Oceania"}
+      {"Invasivo": 193, "Nativo": 1626, "Total": 1819, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 5729, "Nativo": 709, "Total": 6438, "continente": "Ásia"},
+      {"Invasivo": 13060, "Nativo": 3737, "Total": 16797, "continente": "América Central"},
+      {"Invasivo": 14796, "Nativo": 7522, "Total": 22318, "continente": "América do Norte"},
+      {"Invasivo": 5905, "Nativo": 1543, "Total": 7448, "continente": "América do Sul"},
+      {"Invasivo": 281, "Nativo": 22993, "Total": 23274, "continente": "Europa"},
+      {"Invasivo": 1035, "Nativo": 272, "Total": 1307, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 193.0, "Native": 1626.0, "Total": 1819.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 5729.0, "Native": 709.0, "Total": 6438.0, "continent": "Asia"},
-      {"Invasive": 13060.0, "Native": 3737.0, "Total": 16797.0, "continent": "Central America"},
-      {"Invasive": 14796.0, "Native": 7522.0, "Total": 22318.0, "continent": "North America"},
-      {"Invasive": 5905.0, "Native": 1543.0, "Total": 7448.0, "continent": "South America"},
-      {"Invasive": 281.0, "Native": 22993.0, "Total": 23274.0, "continent": "Europe"},
-      {"Invasive": 1035.0, "Native": 272.0, "Total": 1307.0, "continent": "Oceania"}
+      {"Invasive": 193, "Native": 1626, "Total": 1819, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 5729, "Native": 709, "Total": 6438, "continent": "Asia"},
+      {"Invasive": 13060, "Native": 3737, "Total": 16797, "continent": "Central America"},
+      {"Invasive": 14796, "Native": 7522, "Total": 22318, "continent": "North America"},
+      {"Invasive": 5905, "Native": 1543, "Total": 7448, "continent": "South America"},
+      {"Invasive": 281, "Native": 22993, "Total": 23274, "continent": "Europe"},
+      {"Invasive": 1035, "Native": 272, "Total": 1307, "continent": "Oceania"}
     ]
   },
   "mammals": {
     "pt-BR": [
-      {"Invasivo": 4952.0, "Nativo": 842.0, "Total": 5794.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 206.0, "Nativo": 28158.0, "Total": 28364.0, "continente": "Ásia"},
-      {"Invasivo": 3534.0, "Nativo": 1744.0, "Total": 5278.0, "continente": "América Central"},
-      {"Invasivo": 19235.0, "Nativo": 251262.0, "Total": 270497.0, "continente": "América do Norte"},
-      {"Invasivo": 2143.0, "Nativo": 733.0, "Total": 2876.0, "continente": "América do Sul"},
-      {"Invasivo": 9217.0, "Nativo": 97675.0, "Total": 106892.0, "continente": "Europa"},
-      {"Invasivo": 32862.0, "Nativo": 902.0, "Total": 33764.0, "continente": "Oceania"}
+      {"Invasivo": 4952, "Nativo": 842, "Total": 5794, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 206, "Nativo": 28158, "Total": 28364, "continente": "Ásia"},
+      {"Invasivo": 3534, "Nativo": 1744, "Total": 5278, "continente": "América Central"},
+      {"Invasivo": 19235, "Nativo": 251262, "Total": 270497, "continente": "América do Norte"},
+      {"Invasivo": 2143, "Nativo": 733, "Total": 2876, "continente": "América do Sul"},
+      {"Invasivo": 9217, "Nativo": 97675, "Total": 106892, "continente": "Europa"},
+      {"Invasivo": 32862, "Nativo": 902, "Total": 33764, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 4952.0, "Native": 842.0, "Total": 5794.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 206.0, "Native": 28158.0, "Total": 28364.0, "continent": "Asia"},
-      {"Invasive": 3534.0, "Native": 1744.0, "Total": 5278.0, "continent": "Central America"},
-      {"Invasive": 19235.0, "Native": 251262.0, "Total": 270497.0, "continent": "North America"},
-      {"Invasive": 2143.0, "Native": 733.0, "Total": 2876.0, "continent": "South America"},
-      {"Invasive": 9217.0, "Native": 97675.0, "Total": 106892.0, "continent": "Europe"},
-      {"Invasive": 32862.0, "Native": 902.0, "Total": 33764.0, "continent": "Oceania"}
+      {"Invasive": 4952, "Native": 842, "Total": 5794, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 206, "Native": 28158, "Total": 28364, "continent": "Asia"},
+      {"Invasive": 3534, "Native": 1744, "Total": 5278, "continent": "Central America"},
+      {"Invasive": 19235, "Native": 251262, "Total": 270497, "continent": "North America"},
+      {"Invasive": 2143, "Native": 733, "Total": 2876, "continent": "South America"},
+      {"Invasive": 9217, "Native": 97675, "Total": 106892, "continent": "Europe"},
+      {"Invasive": 32862, "Native": 902, "Total": 33764, "continent": "Oceania"}
     ]
   },
   "molluscs": {
     "pt-BR": [
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Ásia"},
-      {"Invasivo": 9.0, "Nativo": 0.0, "Total": 9.0, "continente": "América Central"},
-      {"Invasivo": 7607.0, "Nativo": 869.0, "Total": 8476.0, "continente": "América do Norte"},
-      {"Invasivo": 333.0, "Nativo": 101.0, "Total": 434.0, "continente": "América do Sul"},
-      {"Invasivo": 6.0, "Nativo": 0.0, "Total": 6.0, "continente": "Europa"},
-      {"Invasivo": 0.0, "Nativo": 2.0, "Total": 2.0, "continente": "Oceania"}
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Ásia"},
+      {"Invasivo": 9, "Nativo": 0, "Total": 9, "continente": "América Central"},
+      {"Invasivo": 7607, "Nativo": 869, "Total": 8476, "continente": "América do Norte"},
+      {"Invasivo": 333, "Nativo": 101, "Total": 434, "continente": "América do Sul"},
+      {"Invasivo": 6, "Nativo": 0, "Total": 6, "continente": "Europa"},
+      {"Invasivo": 0, "Nativo": 2, "Total": 2, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Asia"},
-      {"Invasive": 9.0, "Native": 0.0, "Total": 9.0, "continent": "Central America"},
-      {"Invasive": 7607.0, "Native": 869.0, "Total": 8476.0, "continent": "North America"},
-      {"Invasive": 333.0, "Native": 101.0, "Total": 434.0, "continent": "South America"},
-      {"Invasive": 6.0, "Native": 0.0, "Total": 6.0, "continent": "Europe"},
-      {"Invasive": 0.0, "Native": 2.0, "Total": 2.0, "continent": "Oceania"}
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Asia"},
+      {"Invasive": 9, "Native": 0, "Total": 9, "continent": "Central America"},
+      {"Invasive": 7607, "Native": 869, "Total": 8476, "continent": "North America"},
+      {"Invasive": 333, "Native": 101, "Total": 434, "continent": "South America"},
+      {"Invasive": 6, "Native": 0, "Total": 6, "continent": "Europe"},
+      {"Invasive": 0, "Native": 2, "Total": 2, "continent": "Oceania"}
     ]
   },
   "pteridophytes": {
     "pt-BR": [
-      {"Invasivo": 0.0, "Nativo": 260.0, "Total": 260.0, "continente": "África"},
-      {"Invasivo": 0.0, "Nativo": 0.0, "Total": 0.0, "continente": "Antártida"},
-      {"Invasivo": 0.0, "Nativo": 930.0, "Total": 930.0, "continente": "Ásia"},
-      {"Invasivo": 499.0, "Nativo": 0.0, "Total": 499.0, "continente": "América Central"},
-      {"Invasivo": 158.0, "Nativo": 0.0, "Total": 158.0, "continente": "América do Norte"},
-      {"Invasivo": 51.0, "Nativo": 0.0, "Total": 51.0, "continente": "América do Sul"},
-      {"Invasivo": 45.0, "Nativo": 0.0, "Total": 45.0, "continente": "Europa"},
-      {"Invasivo": 70.0, "Nativo": 0.0, "Total": 70.0, "continente": "Oceania"}
+      {"Invasivo": 0, "Nativo": 260, "Total": 260, "continente": "África"},
+      {"Invasivo": 0, "Nativo": 0, "Total": 0, "continente": "Antártida"},
+      {"Invasivo": 0, "Nativo": 930, "Total": 930, "continente": "Ásia"},
+      {"Invasivo": 499, "Nativo": 0, "Total": 499, "continente": "América Central"},
+      {"Invasivo": 158, "Nativo": 0, "Total": 158, "continente": "América do Norte"},
+      {"Invasivo": 51, "Nativo": 0, "Total": 51, "continente": "América do Sul"},
+      {"Invasivo": 45, "Nativo": 0, "Total": 45, "continente": "Europa"},
+      {"Invasivo": 70, "Nativo": 0, "Total": 70, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 0.0, "Native": 260.0, "Total": 260.0, "continent": "Africa"},
-      {"Invasive": 0.0, "Native": 0.0, "Total": 0.0, "continent": "Antarctica"},
-      {"Invasive": 0.0, "Native": 930.0, "Total": 930.0, "continent": "Asia"},
-      {"Invasive": 499.0, "Native": 0.0, "Total": 499.0, "continent": "Central America"},
-      {"Invasive": 158.0, "Native": 0.0, "Total": 158.0, "continent": "North America"},
-      {"Invasive": 51.0, "Native": 0.0, "Total": 51.0, "continent": "South America"},
-      {"Invasive": 45.0, "Native": 0.0, "Total": 45.0, "continent": "Europe"},
-      {"Invasive": 70.0, "Native": 0.0, "Total": 70.0, "continent": "Oceania"}
+      {"Invasive": 0, "Native": 260, "Total": 260, "continent": "Africa"},
+      {"Invasive": 0, "Native": 0, "Total": 0, "continent": "Antarctica"},
+      {"Invasive": 0, "Native": 930, "Total": 930, "continent": "Asia"},
+      {"Invasive": 499, "Native": 0, "Total": 499, "continent": "Central America"},
+      {"Invasive": 158, "Native": 0, "Total": 158, "continent": "North America"},
+      {"Invasive": 51, "Native": 0, "Total": 51, "continent": "South America"},
+      {"Invasive": 45, "Native": 0, "Total": 45, "continent": "Europe"},
+      {"Invasive": 70, "Native": 0, "Total": 70, "continent": "Oceania"}
     ]
   },
   "reptiles": {
     "pt-BR": [
-      {"Invasivo": 14.0, "Nativo": 1731.0, "Total": 1745.0, "continente": "África"},
-      {"Invasivo": 1.0, "Nativo": 0.0, "Total": 1.0, "continente": "Antártida"},
-      {"Invasivo": 142.0, "Nativo": 2800.0, "Total": 2942.0, "continente": "Ásia"},
-      {"Invasivo": 362.0, "Nativo": 3755.0, "Total": 4117.0, "continente": "América Central"},
-      {"Invasivo": 25466.0, "Nativo": 30069.0, "Total": 55535.0, "continente": "América do Norte"},
-      {"Invasivo": 12.0, "Nativo": 1518.0, "Total": 1530.0, "continente": "América do Sul"},
-      {"Invasivo": 3495.0, "Nativo": 86.0, "Total": 3581.0, "continente": "Europa"},
-      {"Invasivo": 1633.0, "Nativo": 1783.0, "Total": 3416.0, "continente": "Oceania"}
+      {"Invasivo": 14, "Nativo": 1731, "Total": 1745, "continente": "África"},
+      {"Invasivo": 1, "Nativo": 0, "Total": 1, "continente": "Antártida"},
+      {"Invasivo": 142, "Nativo": 2800, "Total": 2942, "continente": "Ásia"},
+      {"Invasivo": 362, "Nativo": 3755, "Total": 4117, "continente": "América Central"},
+      {"Invasivo": 25466, "Nativo": 30069, "Total": 55535, "continente": "América do Norte"},
+      {"Invasivo": 12, "Nativo": 1518, "Total": 1530, "continente": "América do Sul"},
+      {"Invasivo": 3495, "Nativo": 86, "Total": 3581, "continente": "Europa"},
+      {"Invasivo": 1633, "Nativo": 1783, "Total": 3416, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 14.0, "Native": 1731.0, "Total": 1745.0, "continent": "Africa"},
-      {"Invasive": 1.0, "Native": 0.0, "Total": 1.0, "continent": "Antarctica"},
-      {"Invasive": 142.0, "Native": 2800.0, "Total": 2942.0, "continent": "Asia"},
-      {"Invasive": 362.0, "Native": 3755.0, "Total": 4117.0, "continent": "Central America"},
-      {"Invasive": 25466.0, "Native": 30069.0, "Total": 55535.0, "continent": "North America"},
-      {"Invasive": 12.0, "Native": 1518.0, "Total": 1530.0, "continent": "South America"},
-      {"Invasive": 3495.0, "Native": 86.0, "Total": 3581.0, "continent": "Europe"},
-      {"Invasive": 1633.0, "Native": 1783.0, "Total": 3416.0, "continent": "Oceania"}
+      {"Invasive": 14, "Native": 1731, "Total": 1745, "continent": "Africa"},
+      {"Invasive": 1, "Native": 0, "Total": 1, "continent": "Antarctica"},
+      {"Invasive": 142, "Native": 2800, "Total": 2942, "continent": "Asia"},
+      {"Invasive": 362, "Native": 3755, "Total": 4117, "continent": "Central America"},
+      {"Invasive": 25466, "Native": 30069, "Total": 55535, "continent": "North America"},
+      {"Invasive": 12, "Native": 1518, "Total": 1530, "continent": "South America"},
+      {"Invasive": 3495, "Native": 86, "Total": 3581, "continent": "Europe"},
+      {"Invasive": 1633, "Native": 1783, "Total": 3416, "continent": "Oceania"}
     ]
   },
   "pooled": {
     "pt-BR": [
-      {"Invasivo": 79257.0, "Nativo": 486849.0, "Total": 566106.0, "continente": "África"},
-      {"Invasivo": 64.0, "Nativo": 0.0, "Total": 64.0, "continente": "Antártida"},
-      {"Invasivo": 14860.0, "Nativo": 476618.0, "Total": 491478.0, "continente": "Ásia"},
-      {"Invasivo": 142543.0, "Nativo": 184537.0, "Total": 327080.0, "continente": "América Central"},
-      {"Invasivo": 16720321.0, "Nativo": 20573558.0, "Total": 37293879.0, "continente": "América do Norte"},
-      {"Invasivo": 45172.0, "Nativo": 162160.0, "Total": 207332.0, "continente": "América do Sul"},
-      {"Invasivo": 705978.0, "Nativo": 4648401.0, "Total": 5354379.0, "continente": "Europa"},
-      {"Invasivo": 512863.0, "Nativo": 316181.0, "Total": 829044.0, "continente": "Oceania"}
+      {"Invasivo": 79257, "Nativo": 486849, "Total": 566106, "continente": "África"},
+      {"Invasivo": 64, "Nativo": 0, "Total": 64, "continente": "Antártida"},
+      {"Invasivo": 14860, "Nativo": 476618, "Total": 491478, "continente": "Ásia"},
+      {"Invasivo": 142543, "Nativo": 184537, "Total": 327080, "continente": "América Central"},
+      {"Invasivo": 16720321, "Nativo": 20573558, "Total": 37293879, "continente": "América do Norte"},
+      {"Invasivo": 45172, "Nativo": 162160, "Total": 207332, "continente": "América do Sul"},
+      {"Invasivo": 705978, "Nativo": 4648401, "Total": 5354379, "continente": "Europa"},
+      {"Invasivo": 512863, "Nativo": 316181, "Total": 829044, "continente": "Oceania"}
     ],
     "en-US": [
-      {"Invasive": 79257.0, "Native": 486849.0, "Total": 566106.0, "continent": "Africa"},
-      {"Invasive": 64.0, "Native": 0.0, "Total": 64.0, "continent": "Antarctica"},
-      {"Invasive": 14860.0, "Native": 476618.0, "Total": 491478.0, "continent": "Asia"},
-      {"Invasive": 142543.0, "Native": 184537.0, "Total": 327080.0, "continent": "Central America"},
-      {"Invasive": 16720321.0, "Native": 20573558.0, "Total": 37293879.0, "continent": "North America"},
-      {"Invasive": 45172.0, "Native": 162160.0, "Total": 207332.0, "continent": "South America"},
-      {"Invasive": 705978.0, "Native": 4648401.0, "Total": 5354379.0, "continent": "Europe"},
-      {"Invasive": 512863.0, "Native": 316181.0, "Total": 829044.0, "continent": "Oceania"}
+      {"Invasive": 79257, "Native": 486849, "Total": 566106, "continent": "Africa"},
+      {"Invasive": 64, "Native": 0, "Total": 64, "continent": "Antarctica"},
+      {"Invasive": 14860, "Native": 476618, "Total": 491478, "continent": "Asia"},
+      {"Invasive": 142543, "Native": 184537, "Total": 327080, "continent": "Central America"},
+      {"Invasive": 16720321, "Native": 20573558, "Total": 37293879, "continent": "North America"},
+      {"Invasive": 45172, "Native": 162160, "Total": 207332, "continent": "South America"},
+      {"Invasive": 705978, "Native": 4648401, "Total": 5354379, "continent": "Europe"},
+      {"Invasive": 512863, "Native": 316181, "Total": 829044, "continent": "Oceania"}
     ]
   }
 }
