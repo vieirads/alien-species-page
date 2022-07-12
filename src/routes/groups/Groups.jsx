@@ -47,35 +47,9 @@ const Groups = () => {
                 imgPath={photoMolluscs}
                 textInfo={
                   <FormattedMessage
-                    id="group.molluscs.description"
+                    id="groups.molluscs.resume"
                     default="Moluscos"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Mollusca"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Moluscos"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="molluscs"
               ></GroupCard>
@@ -91,35 +65,9 @@ const Groups = () => {
                 imgPath={photoArachnids}
                 textInfo={
                   <FormattedMessage
-                    id="group.arachnids.description"
-                    default="Aracnídeos"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Arachnid"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Aracn%C3%ADdeos"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                    id="groups.arachnids.resume"
+                    default="Araquinídeos"
+                  />
                 }
                 goToPageLink="arachnids"
               ></GroupCard>
@@ -135,35 +83,9 @@ const Groups = () => {
                 imgPath={photoCrustaceans}
                 textInfo={
                   <FormattedMessage
-                    id="group.crustaceans.description"
+                    id="groups.crustaceans.resume"
                     default="Crustáceos"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Crustacean"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Crust%C3%A1ceo"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="crustaceans"
               ></GroupCard>
@@ -179,35 +101,9 @@ const Groups = () => {
                 imgPath={photoInsects}
                 textInfo={
                   <FormattedMessage
-                    id="group.insects.description"
+                    id="groups.insects.resume"
                     default="Insetos"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Insect"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Insetos"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="insects"
               ></GroupCard>
@@ -223,35 +119,9 @@ const Groups = () => {
                 imgPath={photoFishes}
                 textInfo={
                   <FormattedMessage
-                    id="group.fishes.description"
+                    id="groups.fishes.resume"
                     default="Peixes"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Fish"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Peixe"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="fishes"
               ></GroupCard>
@@ -267,35 +137,9 @@ const Groups = () => {
                 imgPath={photoAmphibians}
                 textInfo={
                   <FormattedMessage
-                    id="group.amphibians.description"
+                    id="groups.amphibians.resume"
                     default="Anfíbios"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Amphibian"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Anf%C3%ADbios"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="amphibians"
               ></GroupCard>
@@ -311,35 +155,9 @@ const Groups = () => {
                 imgPath={photoReptiles}
                 textInfo={
                   <FormattedMessage
-                    id="group.reptiles.description"
+                    id="groups.reptiles.resume"
                     default="Répteis"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Reptile"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/R%C3%A9pteis"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="reptiles"
               ></GroupCard>
@@ -355,35 +173,9 @@ const Groups = () => {
                 imgPath={photoBirds}
                 textInfo={
                   <FormattedMessage
-                    id="group.birds.description"
+                    id="groups.birds.resume"
                     default="Répteis"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Bird"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Aves"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="birds"
               ></GroupCard>
@@ -399,35 +191,9 @@ const Groups = () => {
                 imgPath={photoMammals}
                 textInfo={
                   <FormattedMessage
-                    id="group.mammals.description"
+                    id="groups.mammals.resume"
                     default="Répteis"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Mammal"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Mam%C3%ADferos"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="mammals"
               ></GroupCard>
@@ -443,35 +209,9 @@ const Groups = () => {
                 imgPath={photoPteridophytes}
                 textInfo={
                   <FormattedMessage
-                    id="group.pteridophytes.description"
+                    id="groups.pteridophytes.resume"
                     default="Pteridófitas"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Pteridophyte"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Pteridophyta"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="pteridophytes"
               ></GroupCard>
@@ -487,35 +227,9 @@ const Groups = () => {
                 imgPath={photoAngiosperms}
                 textInfo={
                   <FormattedMessage
-                    id="group.angiosperms.description"
+                    id="groups.angiosperms.resume"
                     default="Pteridófitas"
-                    values={{
-                      Wikipedia: (
-                        <a
-                          href="https://en.wikipedia.org/wiki/Flowering_plant"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipedia"
-                            message="Wikipedia"
-                          />
-                        </a>
-                      ),
-                      Wikipédia: (
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Angiosperma"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FormattedMessage
-                            id="Wikipédia"
-                            message="Wikipédia"
-                          />
-                        </a>
-                      ),
-                    }}
-                  ></FormattedMessage>
+                  />
                 }
                 goToPageLink="angiosperms"
               ></GroupCard>

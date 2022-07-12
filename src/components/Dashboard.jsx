@@ -67,7 +67,7 @@ const angleGroups = {
 
 const Dashboard = ({ groupId }) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} mt={3}>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={4}>
         <Paper sx={styles.paper}>
           <div

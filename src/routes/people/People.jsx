@@ -15,6 +15,7 @@ import photoDenner from "../../imgs/people/denner.jpg";
 import photoDayani from "../../imgs/people/dayani.jpeg";
 import photoWeferson from "../../imgs/people/weferson.jpg";
 import photoKarina from "../../imgs/people/karina.png";
+import photoValeria from "../../imgs/people/valeria.jpg";
 import photoSidinei from "../../imgs/people/sidinei.gif";
 import photoRenio from "../../imgs/people/renio.jpg";
 import photoAvatar from "../../imgs/people/avatar.png";
@@ -73,10 +74,10 @@ const People = () => {
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <PersonCard
                 name="da Silva, V. F. B."
-                imgPath={photoAvatar}
+                imgPath={photoValeria}
                 textInfo="Prof. Titular na UEM"
-                scholarLink=""
-                labLink=""
+                scholarLink="https://scholar.google.com.br/citations?user=QsaFdPwAAAAJ&hl=pt-BR&oi=ao"
+                labLink="http://www.uems.br/lamev"
               />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>

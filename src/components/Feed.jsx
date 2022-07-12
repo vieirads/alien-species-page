@@ -3,7 +3,7 @@ import { Container, Typography } from "@mui/material";
 const styles = {
   container: {
     paddingTop: 12,
-    marginBottom: 5,
+    marginBottom: 3,
     marginLeft: -3,
     // backgroundColor: "yellow",
   },
@@ -15,7 +15,7 @@ const styles = {
 const Feed = ({ title }) => {
   return (
     <Container sx={styles.container}>
-      <Typography variant="h4" sx={styles.title}>
+      <Typography variant="h2" sx={styles.title}>
         {title}
       </Typography>
     </Container>
